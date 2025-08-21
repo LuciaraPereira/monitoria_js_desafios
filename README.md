@@ -1,4 +1,4 @@
-#### 1°Lista de exercícios - js ###
+# 1°Lista de exercícios - js #
 
 #### Desafio 1 #
 #### Alice e Bob criaram um problema cada para o HackerRank. Um revisor avalia os dois desafios, atribuindo pontos em uma escala de 1 a 100 para três categorias: clareza do problema , originalidade e dificuldade . ####
@@ -39,9 +39,6 @@ function aVeryBigSum(ar) {
 #### Desafio 3 ####
 #### Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais. ####
 #### Função:  ####
-
-<img width="490" height="499" alt="image" src="https://github.com/user-attachments/assets/9613c6c0-9c7f-4361-af25-b9be8aef817e" />
-
 
 function plusMinus(arr) {
     // Write your code here
