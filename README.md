@@ -1,13 +1,13 @@
 #### 1°Lista de exercícios - js ###
 
-# Desafio 1 #
-# Alice e Bob criaram um problema cada para o HackerRank. Um revisor avalia os dois desafios, atribuindo pontos em uma escala de 1 a 100 para três categorias: clareza do problema , originalidade e dificuldade .
-# A classificação para o desafio de Alice é o tripleto a = (a[0], a[1], a[2]) , e a classificação para o desafio de Bob é o tripleto b = (b[0], b[1], b[2]) .
-# A tarefa é calcular seus pontos de comparação comparando cada categoria:
-# Se a[i] > b[i] , então Alice ganha 1 ponto.
-# Se a[i] < b[i] , então Bob ganha 1 ponto.
-# Se a[i] = b[i] , então nenhuma das pessoas recebe um ponto.
-# FUNÇÃO:
+#### Desafio 1 #
+#### Alice e Bob criaram um problema cada para o HackerRank. Um revisor avalia os dois desafios, atribuindo pontos em uma escala de 1 a 100 para três categorias: clareza do problema , originalidade e dificuldade . ####
+#### A classificação para o desafio de Alice é o tripleto a = (a[0], a[1], a[2]) , e a classificação para o desafio de Bob é o tripleto b = (b[0], b[1], b[2]) . ####
+#### A tarefa é calcular seus pontos de comparação comparando cada categoria: ####
+#### Se a[i] > b[i] , então Alice ganha 1 ponto. ####
+#### Se a[i] < b[i] , então Bob ganha 1 ponto. ####
+#### Se a[i] = b[i] , então nenhuma das pessoas recebe um ponto.####
+#### FUNÇÃO: ####
 function compareTriplets(a, b) {
  let alice = 0;
  let bob = 0;
