@@ -8,6 +8,7 @@
 #### Se a[i] < b[i] , então Bob ganha 1 ponto. ####
 #### Se a[i] = b[i] , então nenhuma das pessoas recebe um ponto.####
 #### FUNÇÃO: ####
+
 function compareTriplets(a, b) {
  let alice = 0;
  let bob = 0;
@@ -18,13 +19,14 @@ function compareTriplets(a, b) {
         }else if(a[i]< b[i]){
             bob++;
         }
-}
+      }
     return [alice, bob];
 }
 
-# Desafio 2
-# Neste desafio, você precisa calcular e imprimir a soma dos elementos de um array, considerando que alguns números inteiros podem ser muito grandes.
-# Função:
+#### Desafio 2 ####
+#### Neste desafio, você precisa calcular e imprimir a soma dos elementos de um array, considerando que alguns números inteiros podem ser muito grandes. ####
+#### Função: ####
+
 function aVeryBigSum(ar) {
     // Write your code here
     let soma = 0;
@@ -34,9 +36,10 @@ function aVeryBigSum(ar) {
     return soma;
 }
 
-# Desafio 3
-# Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais.
-# Função: 
+#### Desafio 3 ####
+#### Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais. ####
+#### Função:  ####
+
 function plusMinus(arr) {
     // Write your code here
     let positivos = 0;
@@ -62,9 +65,10 @@ function plusMinus(arr) {
     console.log(calc3);
 }
 
-# Desafio 4
-# Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais.
-# Função:
+#### Desafio 4 ####
+#### Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais. ####
+#### Função: ####
+
 function plusMinus(arr) {
     // Write your code here
     let positivos = 0;
@@ -90,9 +94,10 @@ function plusMinus(arr) {
     console.log(calc3);
 }
 
-# Desafio 5
-# Dados cinco inteiros positivos, encontre os valores mínimo e máximo que podem ser calculados somando exatamente quatro dos cinco inteiros. Em seguida, imprima os respectivos valores mínimo e máximo como uma única linha de dois inteiros longos separados por espaços.
-# Função: 
+#### Desafio 5 ####
+#### Dados cinco inteiros positivos, encontre os valores mínimo e máximo que podem ser calculados somando exatamente quatro dos cinco inteiros. Em seguida, imprima os respectivos valores mínimo e máximo como uma #### única linha de dois inteiros longos separados por espaços. ####
+#### Função: ####
+
 function miniMaxSum(arr) {
     // Write your code here
     let maior = arr[0];
