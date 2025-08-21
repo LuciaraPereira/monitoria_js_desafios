@@ -40,6 +40,9 @@ function aVeryBigSum(ar) {
 #### Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais. ####
 #### Função:  ####
 
+<img width="490" height="499" alt="image" src="https://github.com/user-attachments/assets/9613c6c0-9c7f-4361-af25-b9be8aef817e" />
+
+
 function plusMinus(arr) {
     // Write your code here
     let positivos = 0;
