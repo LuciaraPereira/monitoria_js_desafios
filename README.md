@@ -10,6 +10,7 @@
 #### FUNÇÃO: ####
 
 function compareTriplets(a, b) {
+
  let alice = 0;
  let bob = 0;
     
@@ -21,6 +22,7 @@ function compareTriplets(a, b) {
         }
       }
     return [alice, bob];
+    
 }
 
 #### Desafio 2 ####
@@ -43,6 +45,7 @@ function aVeryBigSum(ar) {
 #### Função:  ####
 
 function plusMinus(arr) {
+
     // Write your code here
     let positivos = 0;
     let negativos = 0;
@@ -65,6 +68,7 @@ function plusMinus(arr) {
     console.log(calc1);
     console.log(calc2);
     console.log(calc3);
+    
 }
 
 #### Desafio 4 ####
@@ -72,6 +76,7 @@ function plusMinus(arr) {
 #### Função: ####
 
 function plusMinus(arr) {
+
     // Write your code here
     let positivos = 0;
     let negativos = 0;
@@ -94,6 +99,7 @@ function plusMinus(arr) {
     console.log(calc1);
     console.log(calc2);
     console.log(calc3);
+    
 }
 
 #### Desafio 5 ####
@@ -101,6 +107,7 @@ function plusMinus(arr) {
 #### Função: ####
 
 function miniMaxSum(arr) {
+
     // Write your code here
     let maior = arr[0];
     let menor = arr[0];
@@ -117,4 +124,5 @@ function miniMaxSum(arr) {
     let conta1 = somaT - maior;
     let conta2 = somaT - menor;
     console.log(`${conta1} ${conta2}`)
+    
 }
