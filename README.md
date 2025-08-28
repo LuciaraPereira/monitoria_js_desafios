@@ -72,34 +72,39 @@ function plusMinus(arr) {
 }
 
 #### Desafio 4 ####
-#### Dado um conjunto de inteiros, calcule as proporções de seus elementos que são,, e. Imprima o valor decimal de cada fração em uma nova linha com 6 casas decimais. ####
+####Detalhe da escada
+
+Esta é uma escada de tamanho:
+
+   #
+  ##
+ ###
+####
+Sua base e altura são ambas iguais a. É desenhado com #símbolos e espaços. A última linha não é precedida por espaços.###
 #### Função: ####
 
-function plusMinus(arr) {
 
+
+function staircase(n) {
     // Write your code here
-    let positivos = 0;
-    let negativos = 0;
-    let zeros = 0;
-  
-    
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] > 0 ){
-            positivos++;
-        }else if(arr[i] < 0 ){
-            negativos++;
-        }else{
-            zeros++;
+   let linha;
+    for(let i = 0; i < n; i++ ){
+         linha= "";
+        
+        for(let e = 0; e <  n - i-1; e++  ){
+            let esp = " ";
+           linha = linha + esp;
+         
+        } 
+        
+        for(let h = 0; h < i +1; h++ ){
+            let hash = "#";
+           linha = linha + hash;
         }
+       
+ console.log(linha)
     }
-    let calc1 = (positivos / arr.length).toFixed(6);
-    let calc2 = (negativos / arr.length).toFixed(6);
-    let calc3 = (zeros / arr.length).toFixed(6);
 
-    console.log(calc1);
-    console.log(calc2);
-    console.log(calc3);
-    
 }
 
 #### Desafio 5 ####
